@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>The Antibody</title>
+</head>
+<body>
+    <div id="title">
+        <h1 style="font-size: 50px;">The Antibody</h1><img width="128px" height="128px" src="imgs/logo.png">
+    </div>
+
+    <i>Open source software made for the user, not the developer.</i>
+
+    <div id="why">
+        <h2>Why?</h2>
+        <p>
+            It's not just the fact that unfortunately there are many people on the internet who are "out to get you" that upsets me.<br>
+            It's not even the fact that some of them develop malware and use it to infect other people without their permission,<br>
+            giving legitimate malware analysts & developers a bad name that upsets me.<br>
+            But the fact that the public still sees it as "okay" to promote operating systems and pieces of software that are closed-source<br>
+            (meaning you can't view the code), despite the very obvious reality that closed-source software is infinitely <br>
+            more dangeorous and more likely to infringe upon your privacy. I support GNU's wanting to make everything free, <br>
+            and by extension open source, but the reason I support this is not because of the money, but because I want to <br>
+            defend the important rights the user is justly entitled to.
+        </p>
+    </div>
+
+    <div id="links">
+        <span id="github" href="https://github.com/the-antibody" style="font-size: 30px;">
+            GitHub
+        </span>
+    </div>
+
+    <style>
+        html {
+            color: #fff;
+            background-color: #252525;
+        }
+
+        #title {
+            display: flex;
+        }
+
+        #title h1, #title h2, #links span {
+            transition: 0.5s;
+        }
+
+        #links span {
+            color: rgb(107, 185, 218);
+            text-decoration: underline;
+        }
+
+        #title h1:hover, #links span:hover {
+            transition: 0.5s;
+            letter-spacing: 0.25rem;
+        }
+    </style>
+
+    <script>
+        // github click
+        const github = document.getElementById("github");
+        github.onclick = () => window.open("https://www.github.com/the-antibody", "about:blank");
+    </script>
+</body>
