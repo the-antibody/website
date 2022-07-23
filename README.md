@@ -7,5 +7,5 @@ This is the website containing information about why I formed this organization.
 
 # Languages:
   - HTML
-  - CSS
-  - JS
+  - CSS (embedded)
+  - JS (embedded)
